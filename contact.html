@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+  <!-- CUSTOM STYLING -->
+  <link rel="stylesheet" href="./contact.css">
+  <!-- FONT AWESOME  -->
+  <!-- Optional: Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- BOOTSTRAP HEADER -->
+  <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+
+      Right: Social Icons
+      <div class="header-social">
+        <a href="https://github.com/Mohammad-Haris-55524/Learning-React-in-detail"><i
+            class="fab fa-facebook-f fb"></i></a>
+        <a href="#"><i class="fab fa-twitter twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram insta"></i></a>
+      </div>
+    </div>
+  </div>
+</nav> -->
+
+
+  <!-- MY OWN CUSTOM HEADER -->
+  <header class="site-header container">
+    <!-- Left: Logo -->
+    <div class="header-logo">
+      <img src="https://banoqabil.pk/media/white-logo.png" alt="Website Logo">
+    </div>
+
+    <!-- Center: Navigation -->
+    <div class="header-nav">
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+
+          <li><a href="#">Blog</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Right: Social Icons -->
+    <div class="header-social">
+      <a href="https://github.com/Mohammad-Haris-55524/Learning-React-in-detail">
+        <i class="fab fa-facebook-f fb"></i>
+      </a>
+      <i class="fab fa-twitter twitter"></i>
+      <i class="fab fa-instagram insta"></i>
+    </div>
+
+    <!-- Humberger icon -->
+    <!-- <div class="humberger">
+      <img src="./assets/homepage/icons/humberger-icon.png" alt="humberger-icon">
+    </div> -->
+
+
+    <!-- OFFCANVAS -->
+    <div class="humberger">
+      <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+        aria-controls="offcanvasRight">
+        <img src="./assets/homepage/icons/humberger-icon.png" alt="humberger-icon">
+      </button>
+
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasRightLabel">Navigation</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <!-- offcanvas navigation -->
+          <div class="offcanvas-nav">
+            <nav>
+              <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+
+                <li><a href="#">Blog</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="icons-and-btns">
+   <div class="icons">
+         <a href="https://github.com/Mohammad-Haris-55524/Learning-React-in-detail">
+              <i class="fab fa-facebook-f fb"></i>
+            </a>
+            <i class="fab fa-twitter twitter"></i>
+            <i class="fab fa-instagram insta"></i>
+   </div>
+
+            <div class="buttons">
+<button class="btn btn-success">DONATE</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <main class="">
+      <!-- crousal-section -->
+      <section class="crousal-section container">
+  <div id="carouselExampleFade" class="carousel slide carousel-fade parent-crousal">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://images.unsplash.com/photo-1764957080687-9569e738a238?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://plus.unsplash.com/premium_photo-1764826536125-46111ad9a20d?q=80&w=725&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.unsplash.com/photo-1764866557879-059e1db80a50?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+    </div>
+
+        <div class="carousel-item">
+      <img src="https://images.unsplash.com/photo-1761839257961-4dce65b72d99?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+    </div>
+
+       <div class="carousel-item">
+      <img src="https://plus.unsplash.com/premium_photo-1764826536125-46111ad9a20d?q=80&w=725&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+    </div>
+
+    
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+      </section>
+
+      <!-- section -2 -->
+<!-- Cards -->
+<section class="border border-2 border-black products-cards p-4 container">
+  <h1 class="fw-semibold text-center">Products</h1>
+  <!-- <div class="cards-parent d-flex flex-wrap justify-content-between align-items-center"> -->
+
+  <div class="cards-parent row">
+    <!-- card 1 -->
+  <div class="card  col-lg-3 col-md-4 col-sm-6 col-12 my-4 gap-2">
+  <img src="https://preview.colorlib.com/theme/cozastore/images/product-11.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+        <!-- card 2 -->
+  <div class="card col-lg-3 col-md-4 col-sm-6 col-12 my-4 gap-2">
+  <img src="https://preview.colorlib.com/theme/cozastore/images/product-11.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+        <!-- card 3 -->
+  <div class="card col-lg-3 col-md-4 col-sm-6 col-12 my-4 gap-2">
+  <img src="https://preview.colorlib.com/theme/cozastore/images/product-11.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+        <!-- card 4 -->
+  <div class="card col-lg-3 col-md-4 col-sm-6 col-12 my-4 gap-2">
+  <img src="https://preview.colorlib.com/theme/cozastore/images/product-11.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+        <!-- card 5 -->
+  <div class="card col-lg-3 col-md-4 col-sm-6 col-12 my-4 gap-2">
+  <img src="https://preview.colorlib.com/theme/cozastore/images/product-11.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+        <!-- card 6 -->
+  <div class="card col-lg-3 col-md-4 col-sm-6 col-12 my-4 gap-2">
+  <img src="https://preview.colorlib.com/theme/cozastore/images/product-11.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+        <!-- card 7 -->
+  <div class="card col-lg-3 col-md-4 col-sm-6 col-12 my-4 gap-2">
+  <img src="https://preview.colorlib.com/theme/cozastore/images/product-11.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+        <!-- card 8 -->
+  <div class="card col-lg-3 col-md-4 col-sm-6 col-12 my-4 gap-2">
+  <img src="https://preview.colorlib.com/theme/cozastore/images/product-11.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+  </div>
+ 
+
+
+      </section>
+    </main>
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
